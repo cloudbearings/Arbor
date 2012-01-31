@@ -4,9 +4,9 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME                => 'Arbor::Server',
-    AUTHOR              => q{YOUR NAME <youremail@example.com>},
+    AUTHOR              => q{Dean Pearce <deanpearce@gmail.com>},
     VERSION_FROM        => 'lib/Arbor/Server.pm',
-    ABSTRACT            => 'YOUR APPLICATION ABSTRACT',
+    ABSTRACT            => 'Web Service Component of Augmented Reality Mobile Framework',
     ($ExtUtils::MakeMaker::VERSION >= 6.3002
       ? ('LICENSE'=> 'perl')
       : ()),
@@ -15,6 +15,9 @@ WriteMakefile(
         'Test::More' => 0,
         'YAML'       => 0,
         'Dancer'     => 1.3091,
+	'DBI'	     => 0,
+	'DBD::SQLite'=> 0,
+	'Dancer::Plugin::Database' => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Arbor-Server-*' },

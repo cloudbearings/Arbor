@@ -27,3 +27,10 @@ template: "simple"
 #     start_tag: '[%'
 #     end_tag:   '%]'
 
+# database: "arbor.sqlite"
+# configurable to use multiple connections
+# http://advent.perldancer.org/2010/4
+plugins:
+    Database:
+        driver: 'SQLite'
+        database: 'arbor.sqlite'
