@@ -18,9 +18,9 @@ charset: "UTF-8"
 # simple: default and very basic template engine
 # template_toolkit: TT
 
-template: "simple"
+#template: "simple"
 
-# template: "template_toolkit"
+template: "template_toolkit"
 # engines:
 #   template_toolkit:
 #     encoding:  'utf8'
@@ -30,7 +30,12 @@ template: "simple"
 # database: "arbor.sqlite"
 # configurable to use multiple connections
 # http://advent.perldancer.org/2010/4
+#plugins:
+#    Database:
+#        driver: 'SQLite'
+#        database: 'arbor.sqlite'
+
 plugins:
-    Database:
-        driver: 'SQLite'
-        database: 'arbor.sqlite'
+  DBIC:
+    arbor:
+     dsn: "dbi:SQLite:dbname=arbor.db"  

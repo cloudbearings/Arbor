@@ -17,7 +17,7 @@ WriteMakefile(
         'Dancer'     => 1.3091,
 	'DBI'	     => 0,
 	'DBD::SQLite'=> 0,
-	'Dancer::Plugin::Database' => 0,
+	'Dancer::Plugin::DBIC' => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Arbor-Server-*' },
