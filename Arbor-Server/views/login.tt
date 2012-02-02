@@ -1,0 +1,9 @@
+<div id="login_frame">
+    <span class="login_message">Please login below:</span>
+    <form id="login_form" method="POST">
+        Username: <input type="text" length="20" name="username" />
+        Password: <input type="password" length="64" name="password" />
+        <br />
+        <input type="submit" value="login" />
+    </form>
+</div>
