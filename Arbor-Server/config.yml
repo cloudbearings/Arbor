@@ -27,15 +27,19 @@ template: "template_toolkit"
 #     start_tag: '[%'
 #     end_tag:   '%]'
 
-# database: "arbor.sqlite"
+# database: "arbor.db"
 # configurable to use multiple connections
-# http://advent.perldancer.org/2010/4
-#plugins:
-#    Database:
-#        driver: 'SQLite'
-#        database: 'arbor.sqlite'
+# http://advent.perldancer.org/2010/11
+# uses DBIx::Class backend
 
 plugins:
   DBIC:
     arbor:
-     dsn: "dbi:SQLite:dbname=arbor.db"  
+        schema_class: Arbor::Schema
+        dsn: "dbi:SQLite:dbname=arbor.db"  
+
+# session management done through dancer
+# using YAML backend for easier debugging
+
+session: "YAML"
+session_dir: "/tmp/arbor-sessions"
