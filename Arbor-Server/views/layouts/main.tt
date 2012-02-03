@@ -11,7 +11,7 @@
     </head>
 <body>
     <% content %>
-    <div id="footer">
+    <div id="footer" style="text-align:center;">
         &copy; Dean Pearce 2012
     </div>
 </body>
