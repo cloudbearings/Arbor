@@ -1,0 +1,15 @@
+#login_frame {
+    width: 400px;
+    margin: 0 auto;
+}
+
+input[type=submit] {
+    float: right;
+    clear: both;
+}
+
+#footer {
+    clear: both;
+    width: 400px;
+    margin: 0 auto;
+}

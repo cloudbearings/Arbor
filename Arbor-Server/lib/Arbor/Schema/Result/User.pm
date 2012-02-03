@@ -1,4 +1,4 @@
-package Arbor::Schema::Result::User
+package Arbor::Schema::Result::User;
 
 use strict;
 use warnings;
@@ -11,13 +11,17 @@ __PACKAGE__->add_columns(
         data_type => 'int',
         is_auto_increment => 1,
     },
-    user_name => {
+    username => {
         data_type => 'text',
         size => 20,
     },
-    user_password => {
+    password => {
         data_type => 'text',
         size => 32,
+    },
+    fullname => {
+        data_type => 'text',
+        size => 64,
     },
 );
 

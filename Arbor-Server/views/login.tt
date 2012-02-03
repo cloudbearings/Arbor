@@ -1,9 +1,16 @@
 <div id="login_frame">
-    <span class="login_message">Please login below:</span>
+    <% IF params.failure %>
+    <div style="width: 100%; border: 1px solid #000; background-color:red;">
+        incorrect username or password
+    </div>
+    <% END %>
+    <span class="login_message"><h1>login</h1></span>
     <form id="login_form" method="POST">
-        Username: <input type="text" length="20" name="username" />
-        Password: <input type="password" length="64" name="password" />
+        <span style="width:60px; display:inline-block;">Username</span>
+        <input type="text" length="20" name="username" style="width: 320px; float:right;" />
         <br />
-        <input type="submit" value="login" />
+        <span style="width:60px; display:inline-block;">Password</span> 
+        <input type="password" length="64" name="password" style="width: 320px; float:right;" />
+        <br /><input type="submit" value="login" />
     </form>
 </div>

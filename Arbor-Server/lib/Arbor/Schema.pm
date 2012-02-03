@@ -1,4 +1,4 @@
-package Arbor::Schema
+package Arbor::Schema;
 
 use strict;
 use warnings;
