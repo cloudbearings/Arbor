@@ -51,4 +51,9 @@ post '/login' => sub {
     }
 };
 
+get '/logout' => sub {
+    session->destroy;
+    redirect '/';
+};
+
 true;
