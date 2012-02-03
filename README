@@ -1,0 +1,13 @@
+Arbor - Augmented Reality Web Service
+
+Arbor is a flexible fsat-response augmented reality application. Through predictive caching techniques, Arbor servers and clients are capable of predicting user movement and caching relevant data based on their geolocation data. Thewebserver component manages the accounts and data service for the augmented reality application along with the predictive caching mechanism. 
+
+To start the server:
+cd Arbor-Server
+bin/app.pl
+
+To create a new database:
+cd Arbor-Server
+perl -Ilib bin/deploy.pl
+
+Arbor Server is built on the Perl Dancer framework and is currently using SQLite as the database engine. This allows for strong portability and excellent performance.
