@@ -17,4 +17,6 @@ For development I now recommend using perlbrew to install your own local adminis
 
 Arbor Server is built on the Perl Dancer framework and is currently using SQLite as the database engine. This allows for strong portability and excellent performance.
 
-A recommended webserver is Nginx, a fast lightweight httpd server. 
+A recommended webserver is nginx, a fast lightweight httpd server. 
+To keep a plack application running, a good tool to use is daemontools.
+For fast and easy management of the processes, using plackup with the starman manager has very good performance results.
