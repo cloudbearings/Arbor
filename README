@@ -16,3 +16,5 @@ perl -Ilib bin/deploy.pl
 For development I now recommend using perlbrew to install your own local administrator-free copy of perl! More instructions and information at perlbrew.pl!
 
 Arbor Server is built on the Perl Dancer framework and is currently using SQLite as the database engine. This allows for strong portability and excellent performance.
+
+A recommended webserver is Nginx, a fast lightweight httpd server. 

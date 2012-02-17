@@ -27,5 +27,5 @@ __PACKAGE__->add_columns(
 
 __PACKAGE__->set_primary_key( 'user_id' );
 
-# TODO Define Relationships between data
+__PACKAGE__->belongs_to( secret => 'Arbor::Schema::Result::UserSecret', 'user_id' );
 1;

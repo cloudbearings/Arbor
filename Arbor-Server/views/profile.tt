@@ -1,3 +1,40 @@
 <div>
-<h1>Profile Page for <% username %></h1>
+    <h1>Profile Page for <% fullname %></h1>
+
+    username: <% username %>
+    <br />
+    api key: <span id="api_key"><% api_secret %></span>
+    
+    <button onclick="create_api_secret('<% username %>')">generate new api key</button>
+
+    <h2>Scan This Code with ArborApp</h2>
+    <div id="api_qrcode">
+    </div>
 </div>
+
+<script type="text/javascript">
+
+// QRCode from -- http://jeromeetienne.github.com/jquery-qrcode/
+$(function() {
+    var $api_key = $("#api_key");
+    if( $api_key.html() != 'no api key found' ) {
+        $("#api_qrcode").qrcode( $api_key.html() );
+    }
+});
+
+function create_api_secret(username) {
+    $.ajax({
+        url: "/profile/user/" + username + "/secret",
+        dataType: "json",
+        type: "POST",
+        error: function(data, textStatus, jqXHR) {
+           alert("error generating api key, contact administrator for assistance");
+        },
+        success: function(data, textStatus, jqXHR){
+            $("#api_key").html( data.api_secret );
+            $("#api_qrcode").html('').qrcode( data.api_secret );
+        }
+    });
+}
+
+</script>
