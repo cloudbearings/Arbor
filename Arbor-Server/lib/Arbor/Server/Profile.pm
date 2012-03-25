@@ -27,7 +27,7 @@ get '/user/:id' => sub {
 
     return 'user not found' unless $user;
 
-    my $secret = $user->secret ? $user->secret->api_secret : 'no api key found';
+    my $secret = $user->secret ? $user->user_secret->api_secret : 'no api key found';
 
     template 'profile.tt', { 
         username => params->{id},
