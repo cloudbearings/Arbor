@@ -1,0 +1,316 @@
+[4210]  core @0.000010> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4210]  core @0.001333> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4210]  core @0.007351> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4211]  core @0.001138> request: GET / from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4211]  core @0.003348> [hit #1]trying to match `/' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4211]  core @0.003703> [hit #1]trying to match `/' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4211]  core @0.003944> [hit #1]trying to match `/' against /^\/data\/ping$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4211]  core @0.004197> [hit #1]trying to match `/' against /^\/profile\/user\/([^\/]+)$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4211]  core @0.004430> [hit #1]trying to match `/' against /^\/login$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4211]  core @0.004669> [hit #1]trying to match `/' against /^\/logout$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4211]  core @0.004884> [hit #1]trying to match `/' against /^\/$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4211]  core @0.005084> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4211]  core @0.005907> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4211]  core @0.031846> [hit #1]response: 200 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4213]  core @0.001426> request: GET /login from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4213]  core @0.003799> [hit #1]trying to match `/login' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4213]  core @0.004091> [hit #1]trying to match `/login' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4213]  core @0.004282> [hit #1]trying to match `/login' against /^\/data\/ping$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4213]  core @0.004498> [hit #1]trying to match `/login' against /^\/profile\/user\/([^\/]+)$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4213]  core @0.004734> [hit #1]trying to match `/login' against /^\/login$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4213]  core @0.004925> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4213]  core @0.005618> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4213]  core @0.022565> [hit #1]response: 200 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4211]  core @0.000176> request: POST /login from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4211]  core @0.000668> [hit #2]trying to match `/login' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4211]  core @0.000838> [hit #2]trying to match `/login' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4211]  core @0.001083> [hit #2]trying to match `/login' against /^\/data\/ping$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4211]  core @0.001287> [hit #2]trying to match `/login' against /^\/profile\/user\/([^\/]+)\/secret$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4211]  core @0.001496> [hit #2]trying to match `/login' against /^\/login$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4211]  core @0.001677> [hit #2]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4211]  core @0.001998> [hit #2]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4211]  core @0.149408> [hit #2]response: 302 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4213]  core @0.000227> request: GET /login from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4213]  core @0.000973> [hit #2]trying to match `/login' against /^\/login$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4213]  core @0.001255> [hit #2]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4213]  core @0.001696> [hit #2]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4213]  core @0.007403> [hit #2]response: 200 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4212]  core @0.001471> request: POST /login from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4212]  core @0.003851> [hit #1]trying to match `/login' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4212]  core @0.004126> [hit #1]trying to match `/login' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4212]  core @0.004341> [hit #1]trying to match `/login' against /^\/data\/ping$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4212]  core @0.004543> [hit #1]trying to match `/login' against /^\/profile\/user\/([^\/]+)\/secret$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4212]  core @0.004775> [hit #1]trying to match `/login' against /^\/login$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4212]  core @0.004988> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4212]  core @0.005757> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4212]  core @0.190438> [hit #1]response: 302 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4214]  core @0.001447> request: GET /profile/user/administrator from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4214]  core @0.003831> [hit #1]trying to match `/profile/user/administrator' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4214]  core @0.004087> [hit #1]trying to match `/profile/user/administrator' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4214]  core @0.004241> [hit #1]trying to match `/profile/user/administrator' against /^\/data\/ping$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4214]  core @0.004372> [hit #1]trying to match `/profile/user/administrator' against /^\/profile\/user\/([^\/]+)$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4214]  core @0.004563> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4214]  core @0.004707> [hit #1]  --> named tokens are: id in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 129
+[4214]  core @0.005270> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4214] error @0.166356> [hit #1]request to /profile/user/administrator crashed: Can't locate object method "secret" via package "Arbor::Schema::Result::User" at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Profile.pm line 30. in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4214]  core @0.167003> [hit #1]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4218]  core @0.000016> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4218]  core @0.001332> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4218]  core @0.006809> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4219]  core @0.001275> request: GET /profile/user/administrator from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4219]  core @0.003279> [hit #1]trying to match `/profile/user/administrator' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4219]  core @0.003534> [hit #1]trying to match `/profile/user/administrator' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4219]  core @0.003771> [hit #1]trying to match `/profile/user/administrator' against /^\/data\/ping$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4219]  core @0.003964> [hit #1]trying to match `/profile/user/administrator' against /^\/profile\/user\/([^\/]+)$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4219]  core @0.004164> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4219]  core @0.004379> [hit #1]  --> named tokens are: id in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 129
+[4219]  core @0.005030> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4219]  core @0.196824> [hit #1]response: 200 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4221]  core @0.001076> request: POST /profile/user/administrator/secret from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4221]  core @0.002844> [hit #1]trying to match `/profile/user/administrator/secret' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4221]  core @0.003036> [hit #1]trying to match `/profile/user/administrator/secret' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4221]  core @0.003180> [hit #1]trying to match `/profile/user/administrator/secret' against /^\/data\/ping$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4221]  core @0.003322> [hit #1]trying to match `/profile/user/administrator/secret' against /^\/profile\/user\/([^\/]+)\/secret$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4221]  core @0.003477> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4221]  core @0.003690> [hit #1]  --> named tokens are: id in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 129
+[4221]  core @0.004169> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4221]  core @0.168632> [hit #1]response: 200 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4219]  core @0.000167> request: GET /data/block/list from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4219]  core @0.000714> [hit #2]trying to match `/data/block/list' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4219]  core @0.000945> [hit #2]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4219]  core @0.001322> [hit #2]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4219] error @0.008214> [hit #2]request to /data/block/list crashed: DBIx::Class::ResultSet::all(): [SQL::Abstract::__ANON__] Fatal: unexpected operator '<=' with undef operand at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Data.pm line 23 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4219]  core @0.008803> [hit #2]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4220]  core @0.001836> request: GET /data/blocks/list from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4220]  core @0.004077> [hit #1]trying to match `/data/blocks/list' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4220]  core @0.004346> [hit #1]trying to match `/data/blocks/list' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4220]  core @0.004531> [hit #1]trying to match `/data/blocks/list' against /^\/data\/ping$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4220]  core @0.004717> [hit #1]trying to match `/data/blocks/list' against /^\/profile\/user\/([^\/]+)$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4220]  core @0.004921> [hit #1]trying to match `/data/blocks/list' against /^\/login$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4220]  core @0.005104> [hit #1]trying to match `/data/blocks/list' against /^\/logout$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4220]  core @0.005303> [hit #1]trying to match `/data/blocks/list' against /^\/$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4220]  core @0.005526> [hit #1]trying to match `/data/blocks/list' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4220]  core @0.005731> [hit #1]trying to match `/data/blocks/list' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4220]  core @0.005913> [hit #1]trying to match `/data/blocks/list' against /^\/data\/ping$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4220]  core @0.006093> [hit #1]trying to match `/data/blocks/list' against /^\/profile\/user\/([^\/]+)$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4220]  core @0.006302> [hit #1]trying to match `/data/blocks/list' against /^\/login$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4220]  core @0.006483> [hit #1]trying to match `/data/blocks/list' against /^\/logout$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4220]  core @0.006757> [hit #1]trying to match `/data/blocks/list' against /^\/$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4220]  core @0.007335> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4220]  core @0.017644> [hit #1]response: 404 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4219]  core @0.000189> request: GET /data/block/list from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4219]  core @0.000784> [hit #3]trying to match `/data/block/list' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4219]  core @0.001017> [hit #3]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4219]  core @0.001331> [hit #3]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4219] error @0.005521> [hit #3]request to /data/block/list crashed: DBIx::Class::ResultSet::all(): [SQL::Abstract::__ANON__] Fatal: unexpected operator '<=' with undef operand at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Data.pm line 23 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4219]  core @0.005942> [hit #3]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4225]  core @0.000012> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4225]  core @0.001125> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4225]  core @0.006502> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4226]  core @0.000991> request: GET /data/block/list from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4226]  core @0.002456> [hit #1]trying to match `/data/block/list' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4226]  core @0.002635> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4226]  core @0.003107> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4226] error @0.172365> [hit #1]request to /data/block/list crashed: DBIx::Class::ResultSet::all(): [SQL::Abstract::__ANON__] Fatal: unexpected operator '<=' with undef operand at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Data.pm line 23 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4226]  core @0.172951> [hit #1]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4228]  core @0.001290> request: GET /data/block/list from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4228]  core @0.003255> [hit #1]trying to match `/data/block/list' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4228]  core @0.003427> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4228]  core @0.003971> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4228] error @0.181557> [hit #1]request to /data/block/list crashed: DBIx::Class::ResultSet::all(): [SQL::Abstract::__ANON__] Fatal: unexpected operator '<=' with undef operand at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Data.pm line 23 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4228]  core @0.182396> [hit #1]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4231]  core @0.000011> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4231]  core @0.001022> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4231]  core @0.006228> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4232]  core @0.001672> request: GET /data/block/list from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4232]  core @0.004388> [hit #1]trying to match `/data/block/list' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4232]  core @0.004642> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4232]  core @0.005424> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4232] error @0.180465> [hit #1]request to /data/block/list crashed: DBIx::Class::ResultSet::all(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such column: latitudea [for Statement "SELECT me.id, me.longitudea, me.latitiudea, me.longitudeb, me.latitiudeb, me.last_updated FROM block me WHERE ( ( latitudea <= ? AND latitudeb >= ? AND longitudea <= ? AND longitudeb >= ? ) )"] at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Data.pm line 23 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4232]  core @0.181139> [hit #1]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4240]  core @0.000012> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4240]  core @0.001073> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4240]  core @0.006240> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4241]  core @0.000945> request: GET /data/block/list from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4241]  core @0.002493> [hit #1]trying to match `/data/block/list' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4241]  core @0.002691> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4241]  core @0.003201> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4241] error @0.150756> [hit #1]request to /data/block/list crashed: Can't call method "get_neighbours" on an undefined value at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Data.pm line 25. in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4241]  core @0.151434> [hit #1]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4246]  core @0.000014> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4246]  core @0.001581> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4246]  core @0.009695> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4247]  core @0.001150> request: GET /data/block/list from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4247]  core @0.003099> [hit #1]trying to match `/data/block/list' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4247]  core @0.003313> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4247]  core @0.003959> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4247]  core @0.155357> [hit #1]response: 200 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4252]  core @0.000014> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4252]  core @0.001244> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4252]  core @0.007070> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4253]  core @0.001711> request: GET /data/block/list from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4253]  core @0.004444> [hit #1]trying to match `/data/block/list' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4253]  core @0.004717> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4253]  core @0.005542> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4253]  core @0.181986> [hit #1]response: 200 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4255]  core @0.001443> request: GET /data/blockst from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4255]  core @0.004001> [hit #1]trying to match `/data/blockst' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4255]  core @0.004275> [hit #1]trying to match `/data/blockst' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4255]  core @0.004474> [hit #1]trying to match `/data/blockst' against /^\/data\/ping$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4255]  core @0.004715> [hit #1]trying to match `/data/blockst' against /^\/profile\/user\/([^\/]+)$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4255]  core @0.004927> [hit #1]trying to match `/data/blockst' against /^\/login$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4255]  core @0.005116> [hit #1]trying to match `/data/blockst' against /^\/logout$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4255]  core @0.005316> [hit #1]trying to match `/data/blockst' against /^\/$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4255]  core @0.005625> [hit #1]trying to match `/data/blockst' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4255]  core @0.005915> [hit #1]trying to match `/data/blockst' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4255]  core @0.006174> [hit #1]trying to match `/data/blockst' against /^\/data\/ping$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4255]  core @0.006404> [hit #1]trying to match `/data/blockst' against /^\/profile\/user\/([^\/]+)$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4255]  core @0.006644> [hit #1]trying to match `/data/blockst' against /^\/login$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4255]  core @0.006871> [hit #1]trying to match `/data/blockst' against /^\/logout$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4255]  core @0.007082> [hit #1]trying to match `/data/blockst' against /^\/$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4255]  core @0.007710> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4255]  core @0.018852> [hit #1]response: 404 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4256]  core @0.001486> request: GET /data/blocks from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4256]  core @0.003981> [hit #1]trying to match `/data/blocks' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4256]  core @0.004277> [hit #1]trying to match `/data/blocks' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4256]  core @0.004489> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4256]  core @0.005235> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4256] error @0.135091> [hit #1]request to /data/blocks crashed: Can't use string ("{"blockList":["1", "2", "3"]}") as a HASH ref while "strict refs" in use at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Data.pm line 50. in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4256]  core @0.135822> [hit #1]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4259]  core @0.000020> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4259]  core @0.001550> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4259]  core @0.009762> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4260]  core @0.001769> request: GET /data/blocks from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4260]  core @0.004770> [hit #1]trying to match `/data/blocks' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4260]  core @0.005136> [hit #1]trying to match `/data/blocks' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4260]  core @0.005441> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4260]  core @0.006343> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4260] error @0.188083> [hit #1]request to /data/blocks crashed: DBIx::Class::ResultSet::next(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such column: blocks [for Statement "SELECT me.id, me.block_id, me.name, me.longitude, me.latitiude, me.altitude, me.last_updated FROM block_data me WHERE ( blocks IN ( ?, ?, ? ) )"] at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Data.pm line 59 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4260]  core @0.188971> [hit #1]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4267]  core @0.000009> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4267]  core @0.001215> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4267]  core @0.007422> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4268]  core @0.001339> request: GET /data/blocks from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4268]  core @0.003377> [hit #1]trying to match `/data/blocks' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4268]  core @0.003617> [hit #1]trying to match `/data/blocks' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4268]  core @0.003799> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4268]  core @0.004449> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4268] error @0.142303> [hit #1]request to /data/blocks crashed: DBIx::Class::ResultSet::next(): DBI Exception: DBD::SQLite::db prepare_cached failed: no such column: blocks [for Statement "SELECT me.id, me.block_id, me.name, me.longitude, me.latitude, me.altitude, me.last_updated FROM block_data me WHERE ( blocks IN ( ?, ?, ? ) )"] at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Data.pm line 59 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4268]  core @0.142789> [hit #1]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4274]  core @0.000014> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4274]  core @0.001510> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4274]  core @0.008898> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4275]  core @0.001460> request: GET /data/blocks from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4275]  core @0.003932> [hit #1]trying to match `/data/blocks' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4275]  core @0.004200> [hit #1]trying to match `/data/blocks' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4275]  core @0.004386> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4275]  core @0.005106> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4275]  core @0.181276> [hit #1]response: 200 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4277]  core @0.001315> request: GET /data/blocks from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4277]  core @0.003567> [hit #1]trying to match `/data/blocks' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4277]  core @0.003859> [hit #1]trying to match `/data/blocks' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4277]  core @0.003995> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4277]  core @0.004624> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4277]  core @0.150410> [hit #1]response: 200 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4275]  core @0.000165> request: GET /data/blocks from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4275]  core @0.000693> [hit #2]trying to match `/data/blocks' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4275]  core @0.000870> [hit #2]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4275]  core @0.001178> [hit #2]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4275]  core @0.006170> [hit #2]response: 200 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4276]  core @0.001291> request: HEAD / from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4276]  core @0.003997> [hit #1]trying to match `/' against /^\/profile\/user\/([^\/]+)$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4276]  core @0.004351> [hit #1]trying to match `/' against /^\/login$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4276]  core @0.004610> [hit #1]trying to match `/' against /^\/logout$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4276]  core @0.004903> [hit #1]trying to match `/' against /^\/$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4276]  core @0.005095> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4276]  core @0.006071> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4276]  core @0.036549> [hit #1]response: 200 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4289]  core @0.000011> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4289]  core @0.001123> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4289]  core @0.006360> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4295]  core @0.000014> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4295]  core @0.001523> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4295]  core @0.009695> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4296]  core @0.001317> request: GET /data/blocks from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4296]  core @0.003938> [hit #1]trying to match `/data/blocks' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4296]  core @0.004245> [hit #1]trying to match `/data/blocks' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4296]  core @0.004429> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4296]  core @0.005178> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4296] error @0.171066> [hit #1]request to /data/blocks crashed: Not an ARRAY reference at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Data.pm line 66. in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4296]  core @0.171700> [hit #1]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4299]  core @0.001464> request: GET /data/blocks from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4299]  core @0.003905> [hit #1]trying to match `/data/blocks' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4299]  core @0.004179> [hit #1]trying to match `/data/blocks' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4299]  core @0.004365> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4299]  core @0.005145> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4299] error @0.196357> [hit #1]request to /data/blocks crashed: Not an ARRAY reference at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Data.pm line 66. in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4299]  core @0.196953> [hit #1]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4319]  core @0.000022> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4319]  core @0.001532> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4319]  core @0.009098> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4320]  core @0.000952> request: GET /data/blocks from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4320]  core @0.002555> [hit #1]trying to match `/data/blocks' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4320]  core @0.002775> [hit #1]trying to match `/data/blocks' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4320]  core @0.002924> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4320]  core @0.003450> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4320] error @0.170378> [hit #1]request to /data/blocks crashed: Not an ARRAY reference at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Data.pm line 63. in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4320]  core @0.171106> [hit #1]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4325]  core @0.000011> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4325]  core @0.001016> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4325]  core @0.006164> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4326]  core @0.001628> request: GET /data/blocks from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4326]  core @0.004659> [hit #1]trying to match `/data/blocks' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4326]  core @0.004993> [hit #1]trying to match `/data/blocks' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4326]  core @0.005253> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4326]  core @0.005971> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4326] error @0.191495> [hit #1]request to /data/blocks crashed: Can't use string ("1") as an ARRAY ref while "strict refs" in use at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Data.pm line 63. in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4326]  core @0.192485> [hit #1]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4328]  core @0.001297> request: GET /data/blocks from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4328]  core @0.004068> [hit #1]trying to match `/data/blocks' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4328]  core @0.004498> [hit #1]trying to match `/data/blocks' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4328]  core @0.004802> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4328]  core @0.005944> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4328] error @0.147226> [hit #1]request to /data/blocks crashed: Can't use string ("1") as an ARRAY ref while "strict refs" in use at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Data.pm line 63. in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4328]  core @0.147771> [hit #1]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4331]  core @0.000012> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4331]  core @0.001084> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4331]  core @0.010061> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4332]  core @0.001484> request: GET /data/blocks from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4332]  core @0.003901> [hit #1]trying to match `/data/blocks' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4332]  core @0.004169> [hit #1]trying to match `/data/blocks' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4332]  core @0.004374> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4332]  core @0.005124> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4332] error @0.167481> [hit #1]request to /data/blocks crashed: Can't locate object method "data_varibles" via package "Arbor::Schema::Result::BlockData" at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Data.pm line 63. in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4332]  core @0.168017> [hit #1]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4337]  core @0.000014> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4337]  core @0.001524> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4337]  core @0.007891> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4338]  core @0.001306> request: GET /data/blocks from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4338]  core @0.003518> [hit #1]trying to match `/data/blocks' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4338]  core @0.003816> [hit #1]trying to match `/data/blocks' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4338]  core @0.004002> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4338]  core @0.004779> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4338] error @0.174173> [hit #1]request to /data/blocks crashed: Can't call method "key_value" on unblessed reference at /home/pearce/work/Arbor/Arbor-Server/lib/Arbor/Server/Data.pm line 64. in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 98
+[4338]  core @0.174791> [hit #1]response: 500 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4343]  core @0.000012> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4343]  core @0.001083> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4343]  core @0.006617> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4344]  core @0.001376> request: GET /data/blocks from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4344]  core @0.003808> [hit #1]trying to match `/data/blocks' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4344]  core @0.004135> [hit #1]trying to match `/data/blocks' against /^\/data\/blocks$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4344]  core @0.004407> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4344]  core @0.005162> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4344]  core @0.161108> [hit #1]response: 200 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4346]  core @0.001859> request: GET /data/block/list from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4346]  core @0.004694> [hit #1]trying to match `/data/block/list' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4346]  core @0.004944> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4346]  core @0.005693> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4346]  core @0.178772> [hit #1]response: 200 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175
+[4353]  core @0.000012> PLACK_ENV is set (production) forcing PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 31
+[4353]  core @0.001050> loading Dancer::Handler::PSGI handler in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 46
+[4353]  core @0.007930> loading handler 'Dancer::Handler::PSGI' in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer.pm l. 461
+[4354]  core @0.001159> request: GET /data/block/list from - in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 57
+[4354]  core @0.003332> [hit #1]trying to match `/data/block/list' against /^\/data\/block\/list$/ in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 84
+[4354]  core @0.003584> [hit #1]  --> got 1 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Route.pm l. 101
+[4354]  core @0.004341> [hit #1]entering before hook in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Hook.pm l. 58
+[4354]  core @0.187270> [hit #1]response: 200 in /home/pearce/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Dancer/Handler.pm l. 175

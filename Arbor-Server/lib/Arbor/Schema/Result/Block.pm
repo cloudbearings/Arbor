@@ -34,7 +34,7 @@ __PACKAGE__->table("block");
   data_type: 'float'
   is_nullable: 0
 
-=head2 latitiudea
+=head2 latitudea
 
   data_type: 'float'
   is_nullable: 0
@@ -44,7 +44,7 @@ __PACKAGE__->table("block");
   data_type: 'float'
   is_nullable: 0
 
-=head2 latitiudeb
+=head2 latitudeb
 
   data_type: 'float'
   is_nullable: 0
@@ -62,11 +62,11 @@ __PACKAGE__->add_columns(
   { data_type => "integer", is_auto_increment => 1, is_nullable => 0 },
   "longitudea",
   { data_type => "float", is_nullable => 0 },
-  "latitiudea",
+  "latitudea",
   { data_type => "float", is_nullable => 0 },
   "longitudeb",
   { data_type => "float", is_nullable => 0 },
-  "latitiudeb",
+  "latitudeb",
   { data_type => "float", is_nullable => 0 },
   "last_updated",
   {

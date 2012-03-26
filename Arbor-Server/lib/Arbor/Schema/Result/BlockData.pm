@@ -46,7 +46,7 @@ __PACKAGE__->table("block_data");
   data_type: 'float'
   is_nullable: 0
 
-=head2 latitiude
+=head2 latitude
 
   data_type: 'float'
   is_nullable: 0
@@ -73,7 +73,7 @@ __PACKAGE__->add_columns(
   { data_type => "varchar", is_nullable => 0, size => 128 },
   "longitude",
   { data_type => "float", is_nullable => 0 },
-  "latitiude",
+  "latitude",
   { data_type => "float", is_nullable => 0 },
   "altitude",
   { data_type => "float", is_nullable => 1 },
