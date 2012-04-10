@@ -65,6 +65,7 @@ any ['get', 'post'] =>  '/blocks' => sub {
 
         }
         push @data, {
+            id => $block->id,
             blockId => $block->block_id,
             name => $block->name,
             latitude => $block->latitude,
