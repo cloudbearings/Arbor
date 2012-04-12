@@ -68,6 +68,10 @@ __PACKAGE__->add_columns(
   { data_type => "float", is_nullable => 0 },
   "latitudeb",
   { data_type => "float", is_nullable => 0 },
+  "x",
+  { data_type => "integer", is_nullable => 0 },
+  "y",
+  { data_type => "integer", is_nullable => 0 },
   "last_updated",
   {
     data_type     => "datetime",
