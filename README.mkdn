@@ -1,0 +1,31 @@
+# Arbor - Predictive Real-Life Pathing
+
+## What is Arbor?
+Arbor is a proof of concept service that gathers trip information from users to be used to predict the paths of future users. Mobile data service is both expensive and depending on location can suffer from high latency. 
+In many applications this kind of behaviour is acceptable, however in the emerging world of augmented reality, users expect to experience their surroundings in real time. This requires data to be prefetched and rendered
+in a way that is transparent to the user. One challenging task is determining what data to prefetch to both minimize bandwidth and battery wasted as well as provide the smoothest experience to the user.
+
+## How does Arbor work?
+Arbor occasionally polls either the coarse grained or fine grained GPS data for the current location and heading. It passes this information to the Arbor server which then compares the data to all previous trips that
+users have made with Arbor. This can provide a weighted result, allowing data to be efficiently prefetched and processed well before the user needs the data. This can also allow for smarter expiration and refreshing 
+of data. Trips that are one-offs for the user can be expired more quickly to save device space while frequently traveled routes can be prefetched when WiFi networks are in range, reducing cost to the users.
+
+## What do I need to work with Arbor?
+Arbor has two components: the server built in Perl using Dancer and the client built with the Android SDK. For testing purposes, you will also need either the Android simulator with location data to test with, or an
+android device that can be used for debugging.
+
+### Client - Requires an Android mobile device with GPS
+1. Install Android SDK into Eclipse
+2. Import ArborClient project into Eclipse
+3. Connect device in debug mode to computer
+4. Configure remote host to point to desired server (default sectorzerostudios.com)
+5. Build and deploy project, app should start on device
+
+### Server - Requires a Linux distribution
+1. Install perl (I recommend following the steps for Perlbrew at http://perlbrew.pl/)
+2. Build sqlite3 for your local installation
+3. Optional - Install nginx and configure starman as a FastCGI App
+4. cd into ArborServer project and do a "perl Build.PL" followed by "./build install"
+5. run "perl bin/deploy.pl"
+6. Start the app either through starman/nginx or via "perl bin/app.pl"
+7. Navigate to http://<address>:<port>/data/generate to generate core test data.
